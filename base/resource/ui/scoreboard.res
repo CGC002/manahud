@@ -19,7 +19,7 @@
 		"tabPosition"		"0"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width"		"0"		[$X360]
-		"name_width"		"139"	[$WIN32]
+		"name_width"		"114"	[$WIN32]
 		"name_width"		"150"	[$X360]
 		"status_width"		"15"	[$WIN32]
 		"status_width"		"12"	[$X360]
@@ -519,14 +519,14 @@
 		"zpos"			"3"
 		"wide"			"92"
 		"tall"			"92"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerNameLabel"

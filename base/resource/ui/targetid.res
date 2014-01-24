@@ -11,8 +11,8 @@
 		"tall"	 		"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
@@ -39,7 +39,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
 		
@@ -61,7 +61,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 		
@@ -76,7 +76,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"chippyBold16"
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"34"
 		"xpos_minmode"	"30"
@@ -151,6 +151,23 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_heavy"
+		"scaleImage"	"1"
+	}
+	
+	"KillStreakIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillStreakIcon"
+		"xpos"			"34"
+		"xpos_minmode"	"30"
+		"ypos"			"21"
+		"ypos_minmode"	"19"
+		"zpos"			"12"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
 	

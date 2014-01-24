@@ -18,32 +18,26 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"tall"			"84"	[$WIN32]
-		"tall_minmode"			"20"	[$WIN32]
-		"tall"			"104"	[$X360]		
-		"wide"			"f0"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r20"
-		"tall"			"70"	[$WIN32]
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
@@ -51,19 +45,15 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"wide"			"f0"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"ReinforcementsLabel"
@@ -149,10 +139,10 @@
 		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
 		"textAlignment_lodef"		"north-west"
@@ -174,10 +164,10 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
@@ -196,10 +186,10 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
@@ -217,10 +207,10 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
@@ -238,10 +228,10 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
@@ -259,10 +249,10 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
@@ -280,10 +270,10 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
@@ -306,9 +296,9 @@
 		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]
 		"textAlignment"		"north-west"	[$X360]
