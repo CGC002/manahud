@@ -429,6 +429,75 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		"DINProMed14"
+		{
+			"1"
+			{
+				"name"		"DINPro Medium"
+				"tall"		"14"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+				"outline"	"0"
+			}
+		}
+		
+		"DINProMed18"
+		{
+			"1"
+			{
+				"name"		"DINPro Medium"
+				"tall"		"18"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+				"outline"	"0"
+			}
+		}
+		
+		"DINProMed22"
+		{
+			"1"
+			{
+				"name"		"DINPro Medium"
+				"tall"		"22"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+				"outline"	"0"
+			}
+		}
+		
+		"DINProMed24"
+		{
+			"1"
+			{
+				"name"		"DINPro Medium"
+				"tall"		"24"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+				"outline"	"0"
+			}
+		}
+		"DINProMed36"
+		{
+			"1"
+			{
+				"name"		"DINPro Medium"
+				"tall"		"36"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+				"outline"	"0"
+			}
+		}
+		"DINProMed56"
+		{
+			"1"
+			{
+				"name"		"DINPro Medium"
+				"tall"		"56"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+				"outline"	"0"
+			}
+		}
 		"chippyBold16"
 		{
 			"1"

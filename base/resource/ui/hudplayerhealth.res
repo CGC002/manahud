@@ -71,9 +71,27 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"West"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"TanLight"
-	}								
+		"font"			"DINProMed56"
+		"fgcolor"		"White"
+	}
+	
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"126"
+		"ypos"			"46"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"West"
+		"font"			"DINProMed56"
+		"fgcolor"		"Black"
+	}	
+		
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

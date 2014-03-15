@@ -76,7 +76,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"chippyBold16"
+		"font"			"DINProMed18"
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"34"
 		"xpos_minmode"	"30"
@@ -99,13 +99,8 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"TFFontMedium"
-		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"34"
-		"xpos_minmode"	"30"
-		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -166,7 +161,7 @@
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}

@@ -9,7 +9,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"3.0"
-		"delta_item_font"		"chippyBold16"
-		"delta_item_font_big"	"chippyBold16"
+		"delta_item_font"		"DINProMed18"
+		"delta_item_font_big"	"DINProMed18"
 	}
 }

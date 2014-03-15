@@ -17,9 +17,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"5"
-		"ypos"			"5"
-		"zpos"			"3"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
@@ -45,9 +45,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"zpos"			"999999"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
@@ -97,7 +97,7 @@
 		"enabled"			"1"
 		"labeltext"			"%Health%"
 		"textAlignment"		"west"
-		"font"				"chippyBold16"
+		"font"				"DINProMed14"
 		"fgcolor"			"white"
 	}
 }
